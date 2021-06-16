@@ -1,0 +1,43 @@
+$pink_color:#d02d9e;
+$white_color:#fff;
+
+.navbar{
+    background: #141414;
+    overflow: hidden;
+    .nav-logo{
+        width:30%;
+        padding:10px;
+        color:$white_color;
+        font-weight:bold;
+        float:left;
+        font-size:20px;
+        .span{
+            color:$pink_color;
+        }
+    }
+    .nav-menu{
+        width:70%;
+        float:right;
+
+        
+        .menu{
+            li{
+                display: inline-block;
+                margin:0px 30px;
+                padding:10px;
+                color:$white_color;
+                cursor: pointer;
+                font-weight:bold;
+                    &:hover{
+                        color:$pink_color;
+                    }
+                }
+                
+                
+            
+
+        }
+        
+    }
+
+}

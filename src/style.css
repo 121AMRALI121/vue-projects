@@ -1,0 +1,21 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background: #050505;
+    max-height: 100vh;
+}
+
+.container{
+    width:85%;
+    margin:auto;
+}
+
+ul{
+    list-style:none;
+}
+div{
+    color:#fff;
+}
